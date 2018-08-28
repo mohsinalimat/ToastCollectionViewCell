@@ -1,9 +1,10 @@
 # ToastCollectionViewCell
 
-[![CI Status](https://img.shields.io/travis/gottingoscar@gmail.com/ToastCollectionViewCell.svg?style=flat)](https://travis-ci.org/gottingoscar@gmail.com/ToastCollectionViewCell)
+[![CIStatus](https://img.shields.io/travis/frenchfalcon/ToastCollectionViewCell.svg?style=flat)](https://travis-ci.org/frenchfalcon/Hashtags)
 [![Version](https://img.shields.io/cocoapods/v/ToastCollectionViewCell.svg?style=flat)](https://cocoapods.org/pods/ToastCollectionViewCell)
 [![License](https://img.shields.io/cocoapods/l/ToastCollectionViewCell.svg?style=flat)](https://cocoapods.org/pods/ToastCollectionViewCell)
 [![Platform](https://img.shields.io/cocoapods/p/ToastCollectionViewCell.svg?style=flat)](https://cocoapods.org/pods/ToastCollectionViewCell)
+[![Swift 4          support](https://img.shields.io/badge/Swift-4-orange.svg?style=flat)](https://cocoapods.org/pods/ToastCollectionViewCell)
 
 ## :star: What does it do ?
 
@@ -27,7 +28,7 @@ ToastCollectionViewCell is available through [CocoaPods](https://cocoapods.org).
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'ToastCollectionViewCell', :git => 'https://github.com/frenchfalcon/ToastCollectionViewCell'
+pod 'ToastCollectionViewCell'
 ```
 
 ## 😏 Usage
