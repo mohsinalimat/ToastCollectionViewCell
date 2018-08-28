@@ -47,14 +47,14 @@ class MyToast: UIView {
 
 1. Instantiate a classic `UICollectionView`
 
-2. Instantiate a `ToastCollectionViewCellDelegate`  **delegate**
-	***Important:*** It has to be declared as a class property
+2. Instantiate a `ToastCollectionViewCellDelegate` **delegate**
+***Important:*** It has to be declared as a class property
 
 5. This `delegate` needs a reference to your `UICollectionView`, pass it the view!
 
 6. Finally, set the `delegate` property of your `UICollectionView`, to this delegate
 
-#### It is possible to decided of the toast view offsets :
+#### Set the Toast view offsets :
 
 - `maxPositionForComponent` is how high you want your toast to go when scrolling
 
@@ -73,7 +73,7 @@ class ViewController: UIViewController {
 
 		// Instanciate the UICollectionView
 		let collectionViewLayout = UICollectionViewLayout()
-		self.collectionView = UICollectionView(frame: CGRect, collectionViewLayout: 		collectionViewLayout)
+		self.collectionView = UICollectionView(frame: CGRect, collectionViewLayout: collectionViewLayout)
 
 		// Set the offsets
 		self.toastDelegate.maxPositionForComponent = 75.0
@@ -116,10 +116,10 @@ You can then trigger an action on the given Toast view.
 
 ```Swift
 class ExampleCell: ToastCollectionViewCell, ToastCollectionViewCellDelegate {
-  func onToastFullyRaised(toast: UIView) {
-	  let toast = toast as! MyToastView
-	  toast.doSomething()
-  }
+	func onToastFullyRaised(toast: UIView) {
+		let toast = toast as! MyToastView
+		toast.doSomething()
+	}
 }
 ```
 
